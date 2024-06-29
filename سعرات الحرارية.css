@@ -1,0 +1,105 @@
+        *{
+            * {
+                font-family: 'poppins', sans-serif;
+                margin: 0%;
+                scroll-behavior: smooth;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a2e79083;
+            color: #333;
+        }
+        header {
+            background-color:#f0f0f0;
+            width: 100%;
+            position: fixed;/*تثبيت الهدر*/
+            z-index: 999;/*عند تثبيت الشي وعند كتابة هذا الكود لايمكن لاي شي الصعود فوقها*/
+            display: flex;
+            justify-content: space-between;/*يقوم بوضع مسافه بين البيانات المختلفه الموجوده في القسم*/
+            align-items: center;
+            padding: 10px 50px;
+        }
+        .logo {
+            text-decoration: none;
+            color: #25d433;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 2em;
+        }
+        .navigation a{
+            color: #25d433;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 500;
+            padding-right: 100px;
+        }
+        .container {
+            max-width: 500px;
+            padding: 100px 20px 50px 20px;
+            background-color: #b4f578;
+            box-shadow: 0 0 10px rgba(26, 1, 1, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .meal-section {
+            margin-bottom: 20px;
+        }
+
+        .meal-section h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .delete-btn {
+            color: #fff;
+            background-color: #d9534f;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            float: right;
+            transition: 0.7s;
+
+        }
+
+        .delete-btn:hover {
+            background-color: #c9302c;
+            transform: scale(1.1);
+
+        }
+
+        #total-calories {
+            color: #333;
+        }
+
+        .high-calories {
+            color: red;
+            font-weight: bold;
+        }
+        #save-data {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #save-data:hover {
+            background-color: #4cae4c;
+        }
+
